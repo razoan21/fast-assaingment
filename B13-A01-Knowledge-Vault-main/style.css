@@ -72,3 +72,15 @@
   background: #d48e8e;
   border-radius: 60px;
 }
+.banner{
+    background-color: #ec1f1f;
+    padding: 80px 20px;
+  background: #f7f7f7;
+  text-align: right;
+  margin-top: auto;
+  background-position: right;
+}
+.banner ul li{
+     list-style: none;
+  margin-top: 20px;
+}
