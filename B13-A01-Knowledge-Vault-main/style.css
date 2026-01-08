@@ -6,19 +6,18 @@
 
 
 
-.navbar {
+.navber {
   display: flex;
   justify-content: space-between;
   padding: 20px 60px;
   align-items: center;
   background: white;
 }
-
-nav a {
+.nav a{
     
   margin-right: 20px;
   text-decoration: none;
-  color: #7c0c0c;
+  color: #ec1f1f;
 }
 .btn {
   background: #ccc01c;
@@ -40,11 +39,13 @@ nav a {
 
 
 .pedding {
+
   background: rgb(88, 87, 87);
   color: white;
   text-align: center;
   padding: 120px 20px;
 }
+
 
 .pedding h1 {
   color: #4cd964;
@@ -53,4 +54,21 @@ nav a {
 .pedding p {
   max-width: 700px;
   margin: 20px auto;
+}
+#rename {
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.cad{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 60px;
+}
+
+.card {
+  padding: 50px;
+  background: #d48e8e;
+  border-radius: 60px;
 }
