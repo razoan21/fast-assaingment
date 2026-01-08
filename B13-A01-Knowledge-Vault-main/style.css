@@ -15,7 +15,42 @@
 }
 
 nav a {
+    
   margin-right: 20px;
   text-decoration: none;
   color: #7c0c0c;
+}
+.btn {
+  background: #ccc01c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-cad {
+  background: transparent;
+  border: 2px solid #2e8b57;
+  color: #2e8b57;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+
+.pedding {
+  background: rgb(88, 87, 87);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.pedding h1 {
+  color: #4cd964;
+}
+
+.pedding p {
+  max-width: 700px;
+  margin: 20px auto;
 }
